@@ -1,0 +1,260 @@
+#li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+}
+
+#li span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+#name,
+#email {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+}
+
+#but {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    background-color: #2a2a2a;
+    box-shadow: none;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.eximg {
+    color: transparent;
+}
+
+.exx:hover .eximg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+#but:hover {
+    background: #fff;
+    color: #2a2a2a;
+    border: 1px solid #2a2a2a;
+}
+
+#icon:hover {
+    color: rgba(212, 85, 85, 0.947);
+}
+
+.hom1 {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(42, 42, 42, .97);
+    transition: all ease-in-out 0.3s;
+    opacity: 0;
+}
+
+.hom1:hover {
+    opacity: 1;
+}
+
+
+.hom2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hom {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hom1 {
+    color: transparent;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ /* ////////////////////////////////////////// */
+.containe {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .imagee {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .middlee {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:rgba(0,0,0,0.85);;
+  }
+  
+  .containe:hover .middlee {
+    opacity: 1;
+  }
+  
+  .icone {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    text-align: center;
+  }
+  
+  .cone:hover {
+    color: #fff;
+    position: absolute;
+    font-size: 100px;
+  }
+  .h6{
+    color: #fff;
+    position: absolute;
+    font-size: 14px;
+    bottom: 40px;
+    font-weight: 400;
+    left: 15px;
+  }
+
+/* ///////////// */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    left: -5px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    bottom: -60px;
+
+    width: 100%;
+    opacity: 0;
+    transition:  .5s ease
+}
+.container:hover .overlay {
+    bottom: 30px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.menicon {
+    margin-left: 0px;
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    color: black;
+    background-color: #fff;
+}
+.text{
+    display: inline;
+    margin: -10px 10px;
+     text-decoration: none;
+}
+.in{
+    color: black;
+}
+/* ///////////////////// */
+.lorem .kXteup {
+    border-radius: 0 !important;
+    background-color:#fff;
+}
+.lorem .kXteup{
+    border-radius: 0 !important;
+    background-color:#fff;
+
+}
+.lorem .kXteup:hover{
+    background: #fff;
+    background-color:#fff;
+
+}
+.lorem.kXteup:focus:enabled {
+    color: black;
+    background-color: #fff; 
+    box-shadow: 0 0 2px 0 #333;
+}
+.lorem .kXteup:hover:enabled {
+    border-radius: 0 !important;
+    background-color:#fff;
+    color: black;
+    background: #fff;
+    box-shadow: 0 0 2px 0 #333;
+}
+.lorem .Slxdj{
+    border-radius: 0 !important;
+    background-color:#fff;
+}
+.lorem .Slxdj{
+    border-radius: 0 !important;
+    background-color:#fff;
+}
+.lorem .kXteup:hover:enabled, .lorem .kXteup:focus:enabled {
+    color: black !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 2px 0 #333;
+}
+
+
+
+

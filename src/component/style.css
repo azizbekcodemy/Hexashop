@@ -1,0 +1,35 @@
+#App {
+    box-shadow: none;
+    padding-top: 20px;
+    padding-left: -200px;
+  }
+
+
+
+
+/* .nmk{
+  background: red;
+  color: white;
+}
+#nav:hover, #nav:active {
+  color: #aaa!important;
+ 
+}
+#nav:focus{
+  color: #aaa!important;
+} */
+/* ////////////////////////////////////////////// */
+
+
+
+#nav:hover{
+  color: #aaa;
+}
+
+.active{
+  color: #aaa !important;
+}
+
+/* ////////////// */
+
+
